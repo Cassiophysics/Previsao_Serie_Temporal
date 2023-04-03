@@ -47,3 +47,11 @@ Uma vez que os recursos foram criados, o problema de séries temporais pode ser 
 
 O XGBoost pode ser treinado com os exemplos de treinamento transformados, e os modelos resultantes podem ser usados para fazer previsões em novos dados de séries temporais. É importante notar que, embora essa abordagem possa funcionar bem em muitos casos, ela pode não capturar todas as complexidades das séries temporais, especialmente se houver padrões temporais complexos ou variações sazonais.
 
+# Análise Exploratória
+
+Aqui foi realizado uma análise exploratória dos dados de maneira automatizada onde foi possível verificar e compreender diversas características dos dados.
+
+Em seguida foi feita uma decomposição temporal da série através de gráficos de modo a identificar padrões, tendências e sazonalidade.
+
+Também foi executado testes estatísticos para detectar se a série é estacionária ou não.
+
