@@ -3,7 +3,7 @@
 
 Este projeto tem como objetivo aplicar técnicas de ciência de dados para prever a produção de energia elétrica. A previsão é baseada em séries temporais que nada mais são que dados coletados ao longo do tempo, onde cada observação é registrada em uma ordem cronológica.
 
-Tais dados foram obtidos em: 
+Tais dados foram obtidos em: https://fred.stlouisfed.org/series/IPG2211A2N
 
 Embora a limpeza de dados e a engenharia de recursos sejam etapas importantes na análise de dados de séries temporais, o foco principal deste projeto foi a compreensão dos modelos ARIMA e XGBoost e como eles podem ser aplicados na análise e previsão de séries temporais.
 
@@ -73,5 +73,9 @@ Também foi feita uma análise para identificar a adequação dos resíduos do m
 O modelo foi treinado para fazer previsões tanto dentro da amostra como fora da amostra e fez-se uso da Validação Walk Forward para que o modelo seja avaliado de maneira mais realista.
 
 Para o XGBoost foi utilizada a biblioteca Sktime que é ideal para lidar com problemas de séries temporais. Também foi utilizada a Validação Walk-Forward, além da otimização dos hiperparâmetros.
+
+# Avaliação Final
+
+Uma comparação dos modelos finais do ARIMA e do XGBoost foi feita por gráficos e diversas métricas diferentes, onde o modelo ARIMA apresentou resultados um pouco melhores do que o Modelo XGBoost.
 
 
