@@ -64,4 +64,14 @@ Foi aplicado a diferenciação e a diferenciação sazonal para transformar a s�
 
 Uma análise dos gráficos ACF e PACF foi efetuada para tentar descobrir os melhores parâmetros do modelo ARIMA de forma manual.
 
+# Modelagem
+
+Nesta parte foi utilizado o Auto Arima da biblioteca pmdarima para encontrar os melhores parâmetros de maneira automatizada ajudando a reduzir a complexidade do processo de ajuste do modelo.
+
+Também foi feita uma análise para identificar a adequação dos resíduos do modelo, se há autocorrelação não explicada e heteroscedasticidade nos erros.
+
+O modelo foi treinado para fazer previsões tanto dentro da amostra como fora da amostra e fez-se uso da Validação Walk Forward para que o modelo seja avaliado de maneira mais realista.
+
+Para o XGBoost foi utilizada a biblioteca Sktime que é ideal para lidar com problemas de séries temporais. Também foi utilizada a Validação Walk-Forward, além da otimização dos hiperparâmetros.
+
 
