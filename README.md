@@ -55,3 +55,13 @@ Em seguida foi feita uma decomposição temporal da série através de gráficos
 
 Também foi executado testes estatísticos para detectar se a série é estacionária ou não.
 
+# Pré Processamento
+
+Aqui foi realizado um corte nos dados, pois a série temporal apresenta valores demasiadamente antigos que poderiam induzir ruídos desnecessários.
+
+A série temporal foi separada em dados de treino e teste, com o teste contendo os últimos 12 meses.
+Foi aplicado a diferenciação e a diferenciação sazonal para transformar a série temporal em estacionária, pois o modelo ARIMA requer que a série temporal seja estacionária.
+
+Uma análise dos gráficos ACF e PACF foi efetuada para tentar descobrir os melhores parâmetros do modelo ARIMA de forma manual.
+
+
