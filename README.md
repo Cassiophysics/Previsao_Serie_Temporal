@@ -1,5 +1,6 @@
 # Previsão - Séries Temporais
-![energyconsumption](https://user-images.githubusercontent.com/108491443/228979436-b9485091-9a34-4b65-8e93-d472942adbee.png)
+
+![capa_st](https://github.com/Cassiophysics/Previsao_Serie_Temporal/assets/108491443/92ed3c47-1b80-4db1-a3c5-9af5faa056bd)
 
 Este projeto tem como objetivo aplicar técnicas de ciência de dados para prever a produção de energia elétrica. A previsão é baseada em séries temporais que nada mais são que dados coletados ao longo do tempo, onde cada observação é registrada em uma ordem cronológica.
 
