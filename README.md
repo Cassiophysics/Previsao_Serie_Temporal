@@ -2,7 +2,7 @@
 
 ![capa_st](https://github.com/Cassiophysics/Previsao_Serie_Temporal/assets/108491443/92ed3c47-1b80-4db1-a3c5-9af5faa056bd)
 
-Este projeto tem como objetivo aplicar técnicas de ciência de dados para prever a produção de energia elétrica. A previsão é baseada em séries temporais que nada mais são que dados coletados ao longo do tempo, onde cada observação é registrada em uma ordem cronológica.
+Este projeto tem como objetivo aplicar técnicas de ciência de dados para prever a produção de energia elétrica e gás. A previsão é baseada em séries temporais que nada mais são que dados coletados ao longo do tempo, onde cada observação é registrada em uma ordem cronológica.
 
 Tais dados foram obtidos em: https://fred.stlouisfed.org/series/IPG2211A2N
 
