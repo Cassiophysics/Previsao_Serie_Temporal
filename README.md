@@ -51,7 +51,7 @@ O XGBoost pode ser treinado com os exemplos de treinamento transformados, e os m
 
 ## Estrutura do Projeto:
 
-# Análise Exploratória
+# 1. Análise Exploratória
 
 Aqui foi realizado uma análise exploratória dos dados de maneira automatizada onde foi possível verificar e compreender diversas características dos dados.
 
@@ -59,7 +59,7 @@ Em seguida foi feita uma decomposição temporal da série através de gráficos
 
 Também foi executado testes estatísticos para detectar se a série é estacionária ou não.
 
-# Pré Processamento
+# 2. Pré Processamento
 
 Aqui foi realizado um corte nos dados, pois a série temporal apresenta valores demasiadamente antigos que poderiam induzir ruídos desnecessários.
 
@@ -68,7 +68,7 @@ Foi aplicado a diferenciação e a diferenciação sazonal para transformar a s�
 
 Uma análise dos gráficos ACF e PACF foi efetuada para tentar descobrir os melhores parâmetros do modelo ARIMA de forma manual.
 
-# Modelagem
+# 3. Modelagem
 
 Nesta parte foi utilizado o Auto Arima da biblioteca pmdarima para encontrar os melhores parâmetros de maneira automatizada ajudando a reduzir a complexidade do processo de ajuste do modelo.
 
@@ -78,7 +78,7 @@ O modelo foi treinado para fazer previsões tanto dentro da amostra como fora da
 
 Para o XGBoost foi utilizada a biblioteca Sktime que é ideal para lidar com problemas de séries temporais. Também foi utilizada a Validação Walk-Forward, além da otimização dos hiperparâmetros.
 
-# Avaliação Final
+# 4. Avaliação Final
 
 Uma comparação dos modelos finais do ARIMA e do XGBoost foi feita por gráficos e diversas métricas diferentes, onde o modelo ARIMA apresentou resultados um pouco melhores do que o Modelo XGBoost.
 
