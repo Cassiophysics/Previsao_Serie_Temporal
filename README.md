@@ -12,6 +12,20 @@ Assim, o projeto apresenta uma visão detalhada dos modelos ARIMA e XGBoost, exp
 
 O modelo ARIMA (AutoRegressive Integrated Moving Average) é um modelo estatístico que permite a previsão de séries temporais estacionárias, ou seja, séries temporais que possuem uma média e variância constantes ao longo do tempo. Já o modelo XGBoost (Extreme Gradient Boosting) é uma técnica de aprendizado de máquina que pode ser aplicada na análise de séries temporais, entre outras áreas.
 
+## Motivação:
+
+A motivação por trás da criação deste modelo de séries temporais para prever a produção de energia elétrica e gás é enfrentar os desafios complexos e dinâmicos do setor energético. A produção de energia é uma atividade vital para o funcionamento da sociedade e das indústrias, e prever com precisão a sua demanda é essencial para garantir um fornecimento contínuo e eficiente.
+
+Com base nessa necessidade, o objetivo deste projeto é desenvolver um modelo preditivo que seja capaz de antecipar as variações na produção de energia elétrica e gás com base em dados históricos e outras variáveis relevantes. Essa previsão permitirá que as empresas e os órgãos reguladores tomem decisões mais informadas e estratégicas relacionadas ao planejamento energético, como otimização da produção, gerenciamento de estoques e alocação de recursos.
+
+Além disso, a criação desse modelo pode contribuir para a transição energética e o uso mais eficiente dos recursos naturais. Com a capacidade de prever a produção de energia, é possível identificar períodos de maior ou menor demanda, permitindo a adaptação da matriz energética de forma mais sustentável. Isso pode levar a uma redução no consumo de combustíveis fósseis, diminuição das emissões de gases de efeito estufa e estímulo ao desenvolvimento de fontes de energia renovável.
+
+Outro aspecto relevante é a melhoria da eficiência operacional das empresas do setor energético. Com a previsão precisa da produção, é possível ajustar os processos de forma mais eficiente, evitando desperdícios e reduzindo custos. Além disso, a antecipação de picos de demanda ou variações sazonais permite um planejamento mais eficaz da manutenção e expansão das infraestruturas energéticas.
+
+Ao disponibilizar esse projeto no GitHub, meu objetivo é compartilhar os conhecimentos e os resultados alcançados durante o desenvolvimento do modelo, incentivando a colaboração e a troca de experiências com outros profissionais e entusiastas do setor energético. Acredito que a cooperação pode impulsionar melhorias contínuas e promover soluções mais precisas e eficientes para os desafios do fornecimento de energia.
+
+Espero que este modelo de séries temporais possa contribuir para o avanço no planejamento estratégico e operacional do setor energético, fornecendo informações valiosas para a tomada de decisões fundamentadas e sustentáveis. Sinta-se à vontade para explorar o código, os dados e os resultados apresentados neste repositório. Estou entusiasmado com os resultados obtidos e ansioso para ver como essa iniciativa pode evoluir e trazer benefícios significativos para a indústria energética e a sociedade como um todo.
+
 A seguir uma breve explicação de como funciona os modelos utilizados neste projeto:
 
 # ARIMA
@@ -81,5 +95,35 @@ Para o XGBoost foi utilizada a biblioteca Sktime que é ideal para lidar com pro
 # 4. Avaliação Final
 
 Uma comparação dos modelos finais do ARIMA e do XGBoost foi feita por gráficos e diversas métricas diferentes, onde o modelo ARIMA apresentou resultados um pouco melhores do que o Modelo XGBoost.
+
+## Impacto nos negócios:
+
+O modelo de séries temporais traz benefícios significativos para uma empresa do setor energético:
+
+**Eficiência operacional aprimorada:** Com previsões mais precisas da produção de energia, a empresa pode ajustar seus processos de forma eficiente, reduzindo desperdícios e custos.
+
+**Otimização do planejamento e alocação de recursos:** A capacidade de prever a produção de energia elétrica e gás permite um planejamento antecipado da alocação de recursos, melhorando a gestão da infraestrutura e atendendo à demanda esperada.
+
+**Tomada de decisões estratégicas embasadas em dados:** O modelo fornece informações valiosas para decisões estratégicas relacionadas ao planejamento energético, identificando tendências e antecipando mudanças no mercado.
+
+**Redução de riscos e custos associados à produção:** Ao antecipar variações na produção, a empresa pode mitigar riscos, como períodos de alta demanda ou possíveis interrupções no fornecimento, evitando penalidades contratuais e perdas financeiras.
+
+**Suporte à transição energética e sustentabilidade:** O modelo contribui para a transição para fontes de energia mais limpas, permitindo um planejamento eficiente do uso de recursos naturais e o incentivo ao desenvolvimento de energias renováveis.
+
+**Melhoria no atendimento ao cliente:** Com previsões mais precisas, a empresa pode garantir um fornecimento contínuo e confiável de energia, resultando em uma melhor experiência do cliente e maior fidelidade à marca.
+
+# Identificação de melhorias para o modelo:
+
+**Engenharia de recursos com dados externos:** Criar novas características relevantes para a previsão de produção de energia, considerando informações adicionais dos dados externos, como clima e indicadores econômicos.
+
+**Explorar deep learning:** Avaliar a aplicação de técnicas de deep learning, como RNNs ou CNNs, para aproveitar dependências temporais de longo prazo nos dados, mesmo que o conjunto de dados seja pequeno.
+
+**Aumentar o tamanho do conjunto de dados:** Buscar obter mais dados para treinar o modelo, pois um conjunto de dados maior permite que o modelo aprenda mais informações e faça previsões mais precisas.
+
+**Testar outra validação cruzada:** Avalie o modelo utilizando a validação cruzada em blocos para verificar possíveis melhorias no desempenho.
+
+**Monitoramento e atualização contínuos:** Manter um processo de monitoramento regular e atualização do modelo, incorporando novos dados e recalibrando-o para garantir previsões precisas ao longo do tempo.
+
+
 
 
